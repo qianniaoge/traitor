@@ -68,7 +68,7 @@ jobs:
 
       - uses: actions/download-artifact@v1
         with:
-          name: traitor-arm64
+          name: traitor-arm641
         continue-on-error: true
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
